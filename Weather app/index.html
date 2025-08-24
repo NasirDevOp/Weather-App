@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1 class="title">🌤️ Modern Weather App</h1>
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city name...">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="weather-card glass">
+      <h2 id="cityName">--</h2>
+      <img id="weatherIcon" src="" alt="Weather Icon" style="width:100px; height:100px; display:none;">
+      <p id="temperature">-- °C</p>
+      <p id="description">--</p>
+      <p id="humidity">Humidity: --%</p>
+      <p id="wind">Wind: -- m/s</p>
+    </div>
+    
+    <h2 class="forecast-title">5-Day Forecast</h2>
+    <div class="forecast-container" id="forecast"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
